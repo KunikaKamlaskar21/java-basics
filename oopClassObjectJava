@@ -1,0 +1,28 @@
+what is classes and objects?
+
+class is a template for an object.
+Object is a instance of class.
+
+for example: if mobile is class, then types of mobiles or brands of mobiles is object.
+like we say screen touch phones is class, then redMi, Samsung, etc is object.
+
+code:
+
+
+public class Main
+{
+    String mobile1= "RedMi";
+    String mobile2= "Samsung";
+	public static void main(String[] args) {
+		System.out.println("Objects of class");
+		Main m = new Main();
+		System.out.println(m.mobile1);
+		System.out.println(m.mobile2);
+	}
+}
+
+
+
+
+
+
