@@ -1,0 +1,57 @@
+methods:
+
+java methods are used To reuse code: define the code once, and use it many times.
+
+for creating method it must be declared within the class.
+
+ types of methods:
+1. default method
+2. parameterized method
+
+in default method:
+there is no need to give parameter list.
+
+in parameterized method:
+one can give parameter list and return the value if needed.
+
+
+
+for example: (default method example)
+
+public class Main{
+    
+    public void method1(){                                  //method initialization
+            System.out.println("I am method 1");            //method body
+    }
+    
+    public static void main(String[] args){                 
+        Main m1 = new Main();                               //Object creation
+        m1.method1();                                       //method calling
+    }  
+}
+
+
+
+for example: (Parameterized method example)
+
+public class Main{
+    
+    static void myMethod( String myName){
+        
+        System.out.println("hii this is "+myName);
+    }
+    
+    public static void main (String[] args){
+        myMethod("Raju");
+        myMethod("sheetal");
+        myMethod("Vasu");
+    }
+    
+}
+
+
+
+
+
+
+
